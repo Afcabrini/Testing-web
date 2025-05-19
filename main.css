@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+    padding: 0;
+}	
+    
+
+
+#logo{
+  max-width: 200px;;
+  text-transform: uppercase;
+  height:auto;
+     display:flex; 
+  align-items: center;  
+  letter-spacing: 2px;
+  margin: 10px 5px 10px 25px;
+  }	
+
+#logo a{
+  opacity: 0.7;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 5px;
+    background-color: rgba(155, 104, 45, 0.61);
+}
+
+.barras {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.barras a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    padding: 5px 10px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+  main{   
+  background: url(/fundo-menu/background/istockphoto-1254474165-612x612.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 40vh;
+   
+  }
+  
+.container2{
+  display: block;
+  justify-content: center;
+  max-width: auto;
+  max-height:10vb;
+  background-color: antiquewhite;
+}
+
+#titulo{
+  font-size: 25px;
+  text-align: center;
+  margin: 0px 0px 15px 0px;
+  color: black;
+  padding-top: 15px;
+}
+
+#descricao2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  margin-top: auto;
+  padding: 10px 0px 20px 0px;
+  color: black;
+  background-color: antiquewhite;
+  display:grid;
+  justify-content: space-around;
+text-align: left;}
+
+#descricao2 p{
+    color: black;
+   padding: 5px;
+    text-align: center;
+  margin: 10px 0px 10px 0px;
+  justify-content: space-between;
+}
+
+.video{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  background-color: #B9935A;
+}
+
+.carrossel{
+   background-color: antiquewhite;
+  display:flex;
+
+}
+
+#titulo2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin: 0px 0px 15px 0px;
+  padding: 10px 0px 20px 20px;
+  color: black;
+  padding-top: 15px;
+}
+
+.icon{
+   display: flex;
+   gap: 10px;
+  justify-content: flex-end;
+  max-width: 25px;
+  max-height: 25px;
+  padding-top: 10px;;
+    }
+
+#div-cars{
+  display:grid;
+  grid-auto-flow: column;
+}
