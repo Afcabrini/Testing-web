@@ -1,71 +1,189 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+* {
+  margin: 0;
+    padding: 0;
+}	
+    
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+
+#logo{
+  max-width: 200px;;
+  text-transform: uppercase;
+  height:auto;
+     display:flex; 
+  align-items: center;  
+  letter-spacing: 2px;
+  margin: 10px 5px 10px 25px;
+  }	
+
+#logo a{
+  opacity: 0.7;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: rgba(155, 104, 45, 0.61);
+}
+
+.barras {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.barras a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    padding: 5px 10px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+  main{   
+  background: url(/fundo-menu/background/istockphoto-1254474165-612x612.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 40vh;
    
-</head> 
+  }
+  
+.container2{
+  display: block;
+  justify-content: center;
+  max-width: auto;
+  max-height:10vb;
+  background-color: antiquewhite;
+}
 
-<body>
-    <!-- Menu superior -->
-<header>
-    <nav>
-        <div class="container">
-            <h1 id="logo"><a href="index.html">Harvest's Plants</a></h1>
-            
-            <div class="barras">
-                <a href="plantas.html">Loja</a>
-                <a href="contact.html">Contato</a>
-            </div>
-        </div>
-    </nav>
-</header>
+#titulo{
+  font-size: 25px;
+  text-align: center;
+  margin: 0px 0px 15px 0px;
+  color: black;
+  padding-top: 15px;
+}
 
-<!--BACKGROUND IMG-->
-<main></main>
+#descricao2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  margin-top: auto;
+  padding: 10px 0px 20px 0px;
+  color: black;
+  background-color: antiquewhite;
+  display:grid;
+  justify-content: space-around;
+text-align: left;}
 
-<!--Descrição da página-->
-<div class="container2">
-<div id="descricao2">
-  <h1 id="titulo">   Hello World, bem-vindo ao universo das plantas!</h1> 
-  <p> Se você está começando no mundo da jardinagem, mesmo que tenha a mentalidade da 5º série, não se preocupe!<br> Aqui você vai encontrar dicas e truques para cuidar das suas plantinhas e deixá-las lindas e saudáveis. "O" site sobre plantas que pode te dar tudo (lá ele) o que precisa para não deixar nenhum cacto morrer no primeiro mês (afinal, quem nunca passou por isso?). Desde dicas de cultivo, tipos de adubação, até truques para transformar sua varanda num verdadeiro oásis natural.</p>
-</div>
+#descricao2 p{
+    color: black;
+   padding: 5px;
+    text-align: center;
+  margin: 10px 0px 10px 0px;
+  justify-content: space-between;
+}
 
-<!--video-->
-
-<div class="video">
- <iframe width="900" height="400" src="https://www.youtube.com/embed/O_kw05Pi4uk?si=MJpXXDD1bh99t-St" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-
-<div class="carrossel">
-<h1 id="titulo2">Plantas e Sementes</h1>
-<img src="/fundo-menu/icons/planta.svg" alt="Plantas e Sementes" class="icon">
-
-<div id="div-cards">
-    <h1 id="titulo">Cactos</h1>
-    <img src="https://copilot.microsoft.com/shares/i197aavW6HZPrBLnq1A7f" alt="Cactos" class="card">
-</div>
-
-
-
-</div>
+.video{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+  background-color: #B9935A;
+}
 
 
 
+#titulo2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin: 0px 0px 15px 0px;
+  padding: 10px 0px 20px 20px;
+  color: black;
+  padding-top: 15px;
+}
+
+.icon{
+   display: flex;
+   gap: 10px;
+  justify-content: flex-end;
+  max-width: 25px;
+  max-height: 25px;
+  padding-top: 10px;;
+    }
 
 
+.container3 {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 25px 0px 20px 10px;
+}
 
-<!--Menu-inferior-->
-<nav>
-<div class= barras>
-    <a id="" href="plantas.html">Plantas e Sementes</a>
-    <a href="sobre">Sobre</a>
-    <a href="faq">FAQ - Dúvidas</a>
+#titulo3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:12px;
+}
 
-</div> </nav>
-</body>
+.carrossel-texto p {
+   background-image: url('/fundo-menu/icons/planta.svg');
+   background-repeat: no-repeat;
+    width: 24px; 
+   height: 24px;
+    background-position: center;
+    display: flex;
+ background-size: cover;
+padding-bottom: 4px;
+margin-left: 5px;
+}
 
-</html>
+.carrossel {
+       display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 20px;
+    background-color: antiquewhite;
+    position: relative;
+}
+    
+
+.card {
+    background: #f8f8f8;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+   
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.seta {
+  max-width: 100%;
+  max-height: 5vh;
+}
+
+#div-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;}
