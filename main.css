@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 15px 5px;
+    padding: 15px 0px;
     background-color: rgba(155, 104, 45, 0.61);
 }
 
@@ -94,11 +94,7 @@ text-align: left;}
   background-color: #B9935A;
 }
 
-.carrossel{
-   background-color: antiquewhite;
-  display:flex;
 
-}
 
 #titulo2{
   font-family:Arial, Helvetica, sans-serif;
@@ -118,7 +114,130 @@ text-align: left;}
   padding-top: 10px;;
     }
 
-#div-cars{
-  display:grid;
-  grid-auto-flow: column;
+
+.container3 {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 25px 0px 20px 10px;
 }
+
+#titulo3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:12px;
+}
+
+.carrossel-texto p {
+   background-image: url('/fundo-menu/icons/planta.svg');
+   background-repeat: no-repeat;
+    width: 24px; 
+   height: 24px;
+    background-position: center;
+    display: flex;
+ background-size: cover;
+padding-bottom: 4px;
+margin-left: 5px;
+}
+
+.carrossel {
+       display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 20px;
+    background-color: antiquewhite;
+    position: relative;
+}
+    
+
+.card {
+    background: #f8f8f8;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    margin-left: 50px;
+       }
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+#div-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;}
+    
+    
+
+    #seta{
+      display: flex;
+      margin-top: 150px;
+    }
+
+    #samambaia{
+      display: none;
+    }
+
+    #bamboo{
+      display: none;
+    }
+    #palmeira{
+      display: none;
+    }
+
+    #suculenta{
+      display: none;
+    }
+    #costela{
+      display: none;
+    }
+
+    #setaes{
+      display: none;
+      margin-top: 150px;
+      width: 20px;
+    }
+    
+
+  .formulario{
+        padding: 4px;
+    border-radius: 20px;
+    box-shadow: 5px 7px 20px rgba(0.2, 0.2, 0.2, 0.2);
+    text-align: center;
+    max-width: 500px;
+    margin-left: 37%;
+    justify-items: center;
+    margin-top: 1px;
+    justify-content: space-around;
+    
+    
+  }
+
+  input{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    justify-content: space-between;
+     }
+
+     button{
+      width: 70px;
+      color: black;
+      cursor: pointer;
+     }

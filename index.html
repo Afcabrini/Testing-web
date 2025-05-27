@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -55,69 +55,85 @@
 
 <div class="carrossel">
     <div id="div-cards">
-    <div class="card">
-        <img src="/fundo-menu/icons/cacto.png" alt="Cacto">
+      
+    <div id="cacto" class="card">
+        <img   src="/fundo-menu/icons/cacto.png" alt="Cacto">
         <h2>CACTO</h2>
         <p>Planta resistente e fácil de cuidar.</p>
     </div>
 
-    <div class="card">
-        <img src="/fundo-menu/icons/samambaia.png" alt="Samambaia">
+    <div id="samambaia" class="card">
+        <img  src="/fundo-menu/icons/samambaia.png" alt="Samambaia">
         <h2>SAMAMBAIA</h2>
         <p>Folhagem exuberante e elegante.</p>
         </div>
 
-        <div class="card">
+        <div id="sansvieria" class="card">
         <img src="/fundo-menu/icons/sansevieria.png" alt="sansevieria">
         <h2>Sansvíeria</h2>
-        <p>Conhecida como Espada-de-São-Jorge, perfeita para todos ambientes</p>
+        <p>Conhecida como Espada-de-São-Jorge</p>
     </div>
 
-    <div class="card">
+    <div id="orquidea"  class="card">
         <img src="/fundo-menu/icons/orquidea.png" alt="orquidea">
         <h2>Orquidea</h2>
         <p>Linda e combina com todos os lugares</p>
     </div>
 
-    <div class="card">
-        <img src="/fundo-menu/icons/rosa.png" alt="rosa">
+    <div id="rosa" class="card">
+        <img  src="/fundo-menu/icons/rosa.png" alt="rosa">
         <h2>Rosa</h2>
-        <p>Flor do amor</p>
+        <p>Flor da paixão s2</p>
     </div>
 
-    <div class="card">
-        <img src="/fundo-menu/icons/suculenta.png" alt="suculenta">
+    <div id="suculenta" class="card">
+        <img  src="/fundo-menu/icons/suculenta.png" alt="suculenta">
         <h2>Suculenta</h2>
-        <p>A famosa resistencia em planta, perfeito para primeira experiência</p>
+        <p>A famosa resistencia em planta</p>
     </div>
 
-    <div class="card">
-        <img src="/fundo-menu/icons/costela.png" alt="Costela-de-adao">
+    <div id="costela" class="card">
+        <img  src="/fundo-menu/icons/costela.png" alt="Costela-de-adao">
         <h2>Costela de Adão</h2>
         <p>Tira mal olhado e incrivelmente linda</p>
     </div>
 
-    <div class="card">
-        <img src="/fundo-menu/icons/palmeira.png" alt="palmeira">
+    <div id="palmeira" class="card">
+        <img  src="/fundo-menu/icons/palmeira.png" alt="palmeira">
         <h2>Palmeira</h2>
         <p>Ar de elegância em todos para seu lar</p>
     </div>
 
-    <div class="card">
-        <img src="/fundo-menu/icons/bambu.png" alt="bambo">
-        <h2>Bambo</h2>
+    <div id="bamboo" class="card">
+        <img  src="/fundo-menu/icons/bambu.png" alt="bamboo">
+        <h2>Bamboo</h2>
         <p>Bamboo para todas as ocasiões</p>
     </div>
-
-  <div class="carrossel">
-    <button id="btnEsquerda" class="seta">◀</button>
-    <div id="div-cards">
-       <img src="/fundo-menu/icons/seta-d.png">
-    </div>
-    <button id="btnDireita" class="seta">▶</button>
 </div>
-            
+
+  <div>
+         <img  onclick="RolarParaDireita()" id="seta" src="/fundo-menu/icons/seta-d.png">
+    </div>
+         <img  onclick="RolarParaEsquerda()" id="setaes" src="/fundo-menu/icons/seta-d.png">
+           </div>
+   
+<div class="formulario">
+    <h1 id="titulo">Quer ser cliente V.I.P?? </h1>
+    <p id="titulo">Não perca tempo!!!<br> Basta se cadastrar para receber noticias e dicas</p>
+   <form action="" method="post">
+    <input type="text" placeholder="Nome">
+    <input type="email" placeholder="Email">
+    <input type="number" placeholder="Telefone">
+    <button>Concluir</button>
+   </form>
+
+
+<script src="index.js"></script>
 <!--Menu-inferior-->
+
+
+
+
 
 
 
